@@ -1,0 +1,36 @@
+@use "../../../presets" as *;
+@use "../../../mixins" as *;
+
+
+
+.left {
+
+
+    background-color: #2c394a;
+    max-width: 375px;
+    padding: 40px;
+
+    &__foto {
+        max-width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+    }
+
+    &__image {
+        width: 100%;
+        border-radius: 125px;
+    }
+
+    &-aboutme {
+        &__title {
+            color: #c7aa70;
+            margin-bottom: 20px;
+        }
+
+        &__description {
+            color: white;
+        }
+
+    }
+}

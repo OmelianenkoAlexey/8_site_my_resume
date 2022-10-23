@@ -1,0 +1,36 @@
+// *typography - типография
+// *все что касается оформления текста
+
+@use "../presets" as *;
+@use "../mixins" as *;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  }
+
+html {
+  // !основной шрифт, он задан в variables
+  font-family: $font-primary;
+  // !размер для просчета отступов, он задан в variables
+  font-size: $font-size;
+ // !образает все что заходит за пределы этого блока
+  overflow-x: hidden;
+}
+
+body {
+  background: #E5E5E5;
+  color: $color-black;
+   // размер текста по умолчанию
+  font-size: 14px;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: $color-black;
+  color: red;
+}

@@ -1,0 +1,42 @@
+@use "../../../presets" as *;
+@use "../../../mixins" as *;
+
+
+
+
+.right {
+background-color: orange;
+
+}
+
+.right-language {}
+
+.right-language__link {}
+
+.active {}
+
+.right-info__name {}
+
+.right-info__name-title {}
+
+.right-info__description {}
+
+.right-info__contacts {}
+
+.right-info__contacts-link {}
+
+.fa-solid {}
+
+.fa-location-dot {}
+
+.right-info__contacts-location {}
+
+.right-info__contacts-image {}
+
+.fa-phone {}
+
+.right-info__contacts-phone {}
+
+.right-info__contacts-picture {}
+
+.right-info__contacts-email {}
