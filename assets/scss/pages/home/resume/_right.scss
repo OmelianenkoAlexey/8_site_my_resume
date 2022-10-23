@@ -1,42 +1,74 @@
 @use "../../../presets" as *;
 @use "../../../mixins" as *;
 
-
-
-
 .right {
-background-color: orange;
+    background-color: orange;
+    padding: 40px;
+    flex-basis: 200px;
+    flex-grow: 3;
 
+    &-language {
+        &__link {
+            &.active {}
+        }
+    }
+
+    &-info {
+        display: flex;
+        gap: 20px;
+      
+
+        &__name {
+            max-width: 315px;
+            background-color: green;
+
+            &-title {
+                margin: 0;
+                color: #2c394a;
+                font-style: normal;
+                    font-weight: 700;
+                    font-size: 45px;
+                    line-height: 55px;
+            }
+
+            &-description {
+                color: #c7aa70;
+                font-style: normal;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 17px;
+            }
+        }
+
+        &__contacts {
+            // min-width: 315px;
+           display: flex;
+           flex-direction: column;
+            gap: 10px;
+            background-color: yellow;
+            margin-left: auto;
+            &-link {
+                display: flex;
+                gap: 10px;
+                padding-bottom: 10px;
+                border-bottom: 1px solid black;
+                &--md {
+                    border-bottom: none;
+                }
+            }
+
+            &-location {
+                
+            }
+
+            &-image {}
+
+            &-phone {}
+
+            &-picture {}
+
+            &-email {}
+
+        }
+    }
 }
-
-.right-language {}
-
-.right-language__link {}
-
-.active {}
-
-.right-info__name {}
-
-.right-info__name-title {}
-
-.right-info__description {}
-
-.right-info__contacts {}
-
-.right-info__contacts-link {}
-
-.fa-solid {}
-
-.fa-location-dot {}
-
-.right-info__contacts-location {}
-
-.right-info__contacts-image {}
-
-.fa-phone {}
-
-.right-info__contacts-phone {}
-
-.right-info__contacts-picture {}
-
-.right-info__contacts-email {}
