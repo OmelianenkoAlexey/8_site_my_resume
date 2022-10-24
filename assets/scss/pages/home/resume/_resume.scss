@@ -4,6 +4,9 @@
 .resume {
     background-color: white;
     display: flex;
+    @include sm {
+        flex-direction: column-reverse;
+    }
     
 }
 

@@ -35,6 +35,9 @@
 
     &-aboutme {
         border-bottom: 1px solid grey;
+        @include sm {
+            display: none;
+        }
         &__title {
             color: #c7aa70;
             margin-bottom: 20px;

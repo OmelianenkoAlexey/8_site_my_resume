@@ -528,6 +528,24 @@ a {
 .right-info__contacts-location {
   font-style: normal;
 }
+.right-aboutme {
+  border-bottom: 1px solid #a8a8a8;
+}
+.right-aboutme__title {
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+  color: #c7aa70;
+
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+}
+.right-aboutme__description {
+  margin-bottom: 20px;
+
+  color: black;
+}
 .right-projects {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -689,6 +707,9 @@ a {
   .right-info__foto {
     display: none;
   }
+  .right-aboutme {
+    display: none;
+  }
 }
 @media (min-width: 992px) {
   .right-info__contacts {
@@ -718,13 +739,30 @@ a {
   }
 }
 @media (max-width: 575.8px) {
+  .resume {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+  }
   .left__foto {
     display: none;
+  }
+  .left-aboutme {
+    display: none;
+  }
+  .right-info__name {
+    margin-right: auto;
+    margin-left: auto;
   }
   .right-info__name-title {
     text-align: center;
   }
   .right-info__name-description {
     text-align: center;
+  }
+  .right-info__contacts {
+    margin-right: auto;
+    margin-left: auto;
   }
 }

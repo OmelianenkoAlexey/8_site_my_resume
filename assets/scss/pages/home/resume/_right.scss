@@ -52,6 +52,11 @@
         &__name {
             max-width: 315px;
 
+            @include sm {
+                margin-left: auto;
+                margin-right: auto;
+            }
+
             &-title {
                 margin: 0;
                 color: #2c394a;
@@ -64,11 +69,11 @@
                     font-size: 35px;
                 }
 
-                                  @include sm {
-                                    text-align: center;
-                                  }
+                @include sm {
+                    text-align: center;
+                }
 
-                             
+
             }
 
             &-description {
@@ -77,33 +82,33 @@
                 font-weight: 700;
                 font-size: 14px;
                 line-height: 17px;
-                
+
                 @include sm {
-                        text-align: center;
-                    }
+                    text-align: center;
+                }
             }
         }
 
 
         &__foto {
             max-width: 200px;
-                margin-left: auto;
-                margin-right: auto;
-                // margin-bottom: 40px;
+            margin-left: auto;
+            margin-right: auto;
+            // margin-bottom: 40px;
 
             @include sm-min {
-                 display: none;
+                display: none;
             }
         }
 
         &__image {
             width: 100%;
-                border-radius: 100px;
-                transition: 1s;
-            
-                &:hover {
-                    box-shadow: 0 0 20px #c7aa70;
-                }
+            border-radius: 100px;
+            transition: 1s;
+
+            &:hover {
+                box-shadow: 0 0 20px #c7aa70;
+            }
         }
 
         &__contacts {
@@ -112,7 +117,10 @@
             justify-content: space-around;
             gap: 10px;
 
-
+            @include sm {
+                    margin-left: auto;
+                    margin-right: auto;
+                }
 
             @include xl {
                 min-width: 315px;
@@ -187,6 +195,32 @@
             &-email {}
         }
     }
+
+
+    &-aboutme {
+        // background-color: #2c394a;
+    border-bottom: 1px solid #A8A8A8;
+        @include sm-min {
+                display: none;
+        }
+        &__title {
+            margin-top: 10px;
+            color: #c7aa70;
+                margin-bottom: 20px;
+            
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 27px;
+        }
+
+        &__description {
+            color: black;
+                margin-bottom: 20px;
+        }
+
+    }
+
+
 
     &-projects {
         padding-top: 10px;
