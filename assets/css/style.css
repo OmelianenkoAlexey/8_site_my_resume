@@ -717,6 +717,9 @@ a {
   }
 }
 @media (max-width: 1199.8px) {
+  .container {
+    margin: 0 auto;
+  }
   .right-info__contacts {
     min-width: 315px;
   }
