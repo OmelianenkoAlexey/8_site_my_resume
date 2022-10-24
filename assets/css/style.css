@@ -373,7 +373,7 @@ a {
   padding: 40px;
 }
 .right-language {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 
   text-align: right;
 }
@@ -445,6 +445,35 @@ a {
   margin-left: auto;
 
   gap: 10px;
+}
+.right-info__contacts-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.right-info__contacts-viber {
+  margin-left: 10px;
+
+  -webkit-transition: 0.5s;
+       -o-transition: 0.5s;
+          transition: 0.5s;
+
+  color: #785cef;
+}
+.right-info__contacts-viber:hover {
+  scale: 1.3;
+}
+.right-info__contacts-telegram {
+  margin-left: 10px;
+
+  -webkit-transition: 0.5s;
+       -o-transition: 0.5s;
+          transition: 0.5s;
+
+  color: #27a3e2;
+}
+.right-info__contacts-telegram:hover {
+  scale: 1.3;
 }
 .right-info__contacts-link {
   display: -webkit-box;
