@@ -380,29 +380,38 @@ a {
 .right-language__link {
   padding: 3px 4px;
 
+  -webkit-transition: 0.5s;
+       -o-transition: 0.5s;
+          transition: 0.5s;
+
   color: black;
+
+  font-weight: 700;
+  font-style: normal;
 }
 .right-language__link:hover {
-  border-bottom: 2px solid red;
+  color: #c7aa70;
 }
 .right-language__link.active {
-  border-bottom: none;
   border-radius: 5px;
-  background-color: red;
+  background-color: #c7aa70;
+}
+.right-language__link.active:hover {
+  color: black;
 }
 .right-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 
-  margin-bottom: 20px;
+  padding-bottom: 10px;
+
+  border-bottom: 1px solid #a8a8a8;
 
   gap: 20px;
 }
 .right-info__name {
   max-width: 315px;
-
-  background-color: green;
 }
 .right-info__name-title {
   margin: 0;
@@ -435,8 +444,6 @@ a {
 
   margin-left: auto;
 
-  background-color: yellow;
-
   gap: 10px;
 }
 .right-info__contacts-link {
@@ -449,6 +456,10 @@ a {
 
   padding-bottom: 10px;
 
+  -webkit-transition: 0.5s;
+       -o-transition: 0.5s;
+          transition: 0.5s;
+
   border-bottom: 1px solid #a8a8a8;
 
   font-size: 14px;
@@ -457,6 +468,9 @@ a {
   line-height: 17px;
 
   gap: 10px;
+}
+.right-info__contacts-link:hover {
+  color: #c7aa70;
 }
 .right-info__contacts-link--md {
   border-bottom: none;
@@ -468,7 +482,10 @@ a {
   font-style: normal;
 }
 .right-projects {
-  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  border-bottom: 1px solid #a8a8a8;
 }
 .right-projects__title {
   margin-bottom: 20px;
@@ -488,19 +505,27 @@ a {
   color: #c7aa70;
 }
 .right-projects__text {
+  -webkit-transition: 0.5s;
+       -o-transition: 0.5s;
+          transition: 0.5s;
+
   color: black;
+}
+.right-projects__text:hover {
+  color: #c7aa70;
+}
+.right-work {
+  border-bottom: 1px solid #a8a8a8;
 }
 .right-work__title {
   margin-bottom: 20px;
+  padding-top: 10px;
 
   color: #c7aa70;
 
   font-size: 22px;
   font-weight: 700;
   line-height: 27px;
-}
-.right-work__item {
-  background-color: red;
 }
 .right-work__description {
   margin-bottom: 10px;
@@ -541,7 +566,7 @@ a {
   line-height: 15px;
 }
 .right-work__list {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   margin-left: 20px;
 }
 .right-work__item {
@@ -554,6 +579,7 @@ a {
 }
 .right-education__title {
   margin-bottom: 20px;
+  padding-top: 10px;
 
   color: #c7aa70;
 
