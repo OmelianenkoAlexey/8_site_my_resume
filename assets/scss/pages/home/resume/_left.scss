@@ -28,9 +28,12 @@
     &-aboutme {
         border-bottom: 1px solid grey;
         &__title {
-
             color: #c7aa70;
             margin-bottom: 20px;
+
+            font-weight: 700;
+                font-size: 22px;
+                line-height: 27px;
         }
 
         &__description {
@@ -46,6 +49,10 @@
             color: #c7aa70;
             padding-top: 20px;
             margin-bottom: 20px;
+
+            font-weight: 700;
+                font-size: 22px;
+                line-height: 27px;
         }
 
         &__list {
@@ -75,6 +82,10 @@
             color: #c7aa70;
             padding-top: 20px;
             margin-bottom: 20px;
+
+            font-weight: 700;
+                font-size: 22px;
+                line-height: 27px;
         }
 
         &__list {
@@ -98,6 +109,10 @@
             color: #c7aa70;
             padding-top: 20px;
             margin-bottom: 20px;
+
+            font-weight: 700;
+                font-size: 22px;
+                line-height: 27px;
         }
 
         &__list {
