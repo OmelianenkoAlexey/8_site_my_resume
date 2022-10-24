@@ -415,6 +415,7 @@ a {
 }
 .right-info__name-title {
   margin: 0;
+  margin-bottom: 10px;
 
   color: #2c394a;
 
