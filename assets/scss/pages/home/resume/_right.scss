@@ -71,7 +71,7 @@
                 align-items: center;
                 gap: 10px;
                 padding-bottom: 10px;
-                border-bottom: 1px solid grey;
+                border-bottom: 1px solid #A8A8A8;
 
                 font-style: normal;
                 font-weight: 700;
@@ -106,8 +106,8 @@
             margin-bottom: 20px;
 
             font-weight: 700;
-                font-size: 22px;
-                line-height: 27px;
+            font-size: 22px;
+            line-height: 27px;
         }
 
         &__list {
@@ -124,9 +124,71 @@
         &__text {
             color: black;
         }
-
-
     }
+
+    &-work {
+        &__title {
+            color: #c7aa70;
+                margin-bottom: 20px;
+            
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 27px;
+        }
+
+        &__item {
+            // margin-bottom: 20px;
+            background-color: red;
+        }
+
+        &__description {
+            font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 20px;
+                color: #000000;
+                margin-bottom: 10px;
+        }
+
+        &__notes {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 10px;
+            &-date {
+                font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 15px;
+                    color: #A8A8A8;
+                    border-right: 1px solid #A8A8A8;
+                    padding-right: 10px;
+            }
+
+            &-country {
+                font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 15px;
+                    color: #A8A8A8;
+            }
+        }
+
+        &__list {
+                    margin-left: 20px;
+                    margin-bottom: 20px;
+        }
+
+        &__item {
+            margin-bottom: 5px;
+                color: #c7aa70;
+        }
+
+        &__text {
+            color: black;
+        }
+    }
+
+
 
 
 }
