@@ -39,34 +39,59 @@
 
         &__description {
             color: white;
-                margin-bottom: 20px;
+            margin-bottom: 20px;
         }
 
     }
 
-    &-projects {
+    &-techskills {
 
         &__title {
             color: #c7aa70;
-                margin-bottom: 20px;
+            margin-bottom: 20px;
         }
 
         &__list {
             margin-left: 20px;
+            margin-bottom: 20px;
         }
 
         &__item {
-        color: #c7aa70;
-        margin-bottom: 5px;
-         
+            color: #c7aa70;
+            margin-bottom: 5px;
+
         }
 
         &__text {
-                color: white;
-                 &--md {
+            color: white;
+
+            &--md {
                 color: grey;
-            }  
+            }
         }
+    }
+
+    &-softskills {
+
+        &__title {
+            color: #c7aa70;
+            margin-bottom: 20px;
+        }
+
+        &__list {
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        &__item {
+            color: #c7aa70;
+            margin-bottom: 5px;
+        }
+
+        &__text {
+            color: white;
+        }
+
     }
 
 

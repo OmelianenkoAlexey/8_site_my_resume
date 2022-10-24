@@ -254,24 +254,42 @@ a {
 
   color: white;
 }
-.left-projects__title {
+.left-techskills__title {
   margin-bottom: 20px;
 
   color: #c7aa70;
 }
-.left-projects__list {
+.left-techskills__list {
+  margin-bottom: 20px;
   margin-left: 20px;
 }
-.left-projects__item {
+.left-techskills__item {
   margin-bottom: 5px;
 
   color: #c7aa70;
 }
-.left-projects__text {
+.left-techskills__text {
   color: white;
 }
-.left-projects__text--md {
+.left-techskills__text--md {
   color: grey;
+}
+.left-softskills__title {
+  margin-bottom: 20px;
+
+  color: #c7aa70;
+}
+.left-softskills__list {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.left-softskills__item {
+  margin-bottom: 5px;
+
+  color: #c7aa70;
+}
+.left-softskills__text {
+  color: white;
 }
 
 .right {
