@@ -3,8 +3,12 @@
 
 .right {
     padding: 40px;
-    flex-basis: 200px;
+    flex-basis: 315px;
     flex-grow: 3;
+
+    @include md {
+        padding: 20px;
+    }
 
     &-language {
         text-align: right;
@@ -40,6 +44,10 @@
         padding-bottom: 10px;
         border-bottom: 1px solid #A8A8A8;
 
+        @include lg {
+            flex-wrap: wrap;
+        }
+
 
         &__name {
             max-width: 315px;
@@ -51,6 +59,10 @@
                 font-weight: 700;
                 font-size: 45px;
                 line-height: 55px;
+
+                @include md {
+                    font-size: 35px;
+                }
             }
 
             &-description {
@@ -67,7 +79,16 @@
             flex-direction: column;
             justify-content: space-around;
             gap: 10px;
-            margin-left: auto;
+             
+        
+
+            @include xl {
+                   min-width: 315px;
+            }
+
+            @include lg-min {
+                    margin-left: auto;
+            }
 
             &-box {
                 display: flex;
