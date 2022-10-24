@@ -218,7 +218,6 @@ a {
   text-decoration: none;
 
   color: #000000;
-  color: red;
 }
 
 .container {
@@ -290,6 +289,24 @@ a {
 
   background-color: orange;
 }
+.right-language {
+  margin-bottom: 10px;
+
+  text-align: right;
+}
+.right-language__link {
+  padding: 3px 4px;
+
+  color: black;
+}
+.right-language__link:hover {
+  border-bottom: 2px solid red;
+}
+.right-language__link.active {
+  border-bottom: none;
+  border-radius: 5px;
+  background-color: red;
+}
 .right-info {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -328,6 +345,8 @@ a {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
       flex-direction: column;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
 
   margin-left: auto;
 
@@ -339,13 +358,27 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -ms-flex-align: center;
 
   padding-bottom: 10px;
 
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid grey;
+
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 17px;
 
   gap: 10px;
 }
 .right-info__contacts-link--md {
   border-bottom: none;
+}
+.right-info__contacts-image {
+  color: #c7aa70;
+}
+.right-info__contacts-location {
+  font-style: normal;
 }

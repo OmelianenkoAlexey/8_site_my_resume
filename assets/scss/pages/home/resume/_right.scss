@@ -8,15 +8,31 @@
     flex-grow: 3;
 
     &-language {
+        text-align: right;
+        margin-bottom: 10px;
+
         &__link {
-            &.active {}
+
+            color: black;
+
+            padding: 3px 4px;
+
+            &:hover {
+                border-bottom: 2px solid red;
+            }
+
+            &.active {
+                border-radius: 5px;
+                background-color: red;
+                border-bottom: none;
+            }
         }
     }
 
     &-info {
         display: flex;
         gap: 20px;
-      
+
 
         &__name {
             max-width: 315px;
@@ -26,46 +42,61 @@
                 margin: 0;
                 color: #2c394a;
                 font-style: normal;
-                    font-weight: 700;
-                    font-size: 45px;
-                    line-height: 55px;
+                font-weight: 700;
+                font-size: 45px;
+                line-height: 55px;
             }
 
             &-description {
                 color: #c7aa70;
                 font-style: normal;
-                    font-weight: 700;
-                    font-size: 14px;
-                    line-height: 17px;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 17px;
             }
         }
 
         &__contacts {
             // min-width: 315px;
-           display: flex;
-           flex-direction: column;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
             gap: 10px;
             background-color: yellow;
             margin-left: auto;
+
             &-link {
                 display: flex;
+                align-items: center;
                 gap: 10px;
                 padding-bottom: 10px;
-                border-bottom: 1px solid black;
+                border-bottom: 1px solid grey;
+
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 17px;
+
                 &--md {
                     border-bottom: none;
                 }
             }
 
-            &-location {
-                
+            &-image {
+            
+                color: #c7aa70;
             }
 
-            &-image {}
+
+            &-location {
+                font-style: normal;
+            }
+
+
 
             &-phone {}
 
-            &-picture {}
+
 
             &-email {}
 
