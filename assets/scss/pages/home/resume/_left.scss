@@ -17,28 +17,58 @@
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 40px;
-     
+
     }
 
     &__image {
         width: 100%;
         border-radius: 100px;
         transition: 1s;
-           &:hover {
+
+        &:hover {
             box-shadow: 0 0 20px #c7aa70;
         }
     }
 
     &-aboutme {
         &__title {
-          
+
             color: #c7aa70;
             margin-bottom: 20px;
         }
 
         &__description {
             color: white;
+                margin-bottom: 20px;
         }
 
     }
+
+    &-projects {
+
+        &__title {
+            color: #c7aa70;
+                margin-bottom: 20px;
+        }
+
+        &__list {
+            margin-left: 20px;
+        }
+
+        &__item {
+        color: #c7aa70;
+        margin-bottom: 5px;
+         
+        }
+
+        &__text {
+                color: white;
+                 &--md {
+                color: grey;
+            }  
+        }
+    }
+
+
+
 }

@@ -165,31 +165,6 @@ template {
 [hidden] {
   display: none;
 }
-
-@font-face {
-  font-family: "TT Norms";
-  font-weight: bold;
-  font-style: normal;
-
-  src: url("TTNorms-Bold.eot");
-  src: local("TT Norms Bold"), local("TTNorms-Bold"), url("../fonts/TTNorms-Bold.woff2") format("woff2");
-}
-@font-face {
-  font-family: "TT Norms";
-  font-weight: 500;
-  font-style: normal;
-
-  src: url("TTNorms-Medium.eot");
-  src: local("TT Norms Medium"), local("TTNorms-Medium"), url("../fonts/TTNorms-Medium.woff2") format("woff2");
-}
-@font-face {
-  font-family: "TT Norms";
-  font-weight: normal;
-  font-style: normal;
-
-  src: url("TTNorms-Regular.eot");
-  src: local("TT Norms Regular"), local("TTNorms-Regular"), url("../fonts/TTNorms-Regular.woff2") format("woff2");
-}
 *,
 *::before,
 *::after {
@@ -275,7 +250,28 @@ a {
   color: #c7aa70;
 }
 .left-aboutme__description {
+  margin-bottom: 20px;
+
   color: white;
+}
+.left-projects__title {
+  margin-bottom: 20px;
+
+  color: #c7aa70;
+}
+.left-projects__list {
+  margin-left: 20px;
+}
+.left-projects__item {
+  margin-bottom: 5px;
+
+  color: #c7aa70;
+}
+.left-projects__text {
+  color: white;
+}
+.left-projects__text--md {
+  color: grey;
 }
 
 .right {
