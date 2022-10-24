@@ -291,6 +291,49 @@ a {
 .left-softskills__text {
   color: white;
 }
+.left-languages__title {
+  margin-bottom: 20px;
+
+  color: #c7aa70;
+}
+.left-languages__list {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.left-languages__item {
+  margin-bottom: 5px;
+
+  color: #c7aa70;
+}
+.left-languages__text {
+  color: white;
+}
+.left-languages__level {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.left-languages__level-full {
+  width: 150px;
+  height: 8px;
+  margin-top: 5px;
+
+  background-color: #c7aa70;
+}
+.left-languages__level-full--md {
+  width: 75px;
+  height: 8px;
+  margin-top: 5px;
+
+  background-color: #c7aa70;
+}
+.left-languages__level-empty {
+  width: 75px;
+  height: 8px;
+  margin-top: 5px;
+
+  background-color: grey;
+}
 
 .right {
   -webkit-box-flex: 3;
