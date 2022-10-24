@@ -63,6 +63,12 @@
                 @include md {
                     font-size: 35px;
                 }
+
+                                  @include sm {
+                                    text-align: center;
+                                  }
+
+                             
             }
 
             &-description {
@@ -71,7 +77,33 @@
                 font-weight: 700;
                 font-size: 14px;
                 line-height: 17px;
+                
+                @include sm {
+                        text-align: center;
+                    }
             }
+        }
+
+
+        &__foto {
+            max-width: 200px;
+                margin-left: auto;
+                margin-right: auto;
+                // margin-bottom: 40px;
+
+            @include sm-min {
+                 display: none;
+            }
+        }
+
+        &__image {
+            width: 100%;
+                border-radius: 100px;
+                transition: 1s;
+            
+                &:hover {
+                    box-shadow: 0 0 20px #c7aa70;
+                }
         }
 
         &__contacts {
@@ -79,15 +111,15 @@
             flex-direction: column;
             justify-content: space-around;
             gap: 10px;
-             
-        
+
+
 
             @include xl {
-                   min-width: 315px;
+                min-width: 315px;
             }
 
             @include lg-min {
-                    margin-left: auto;
+                margin-left: auto;
             }
 
             &-box {
@@ -101,16 +133,17 @@
                 margin-left: 10px;
                 color: #785cef;
                 transition: 0.5s;
-                
-                    &:hover {
-                        scale: 1.3;
-                    }
+
+                &:hover {
+                    scale: 1.3;
+                }
             }
 
             &-telegram {
                 margin-left: 10px;
                 color: #27a3e2;
                 transition: 0.5s;
+
                 &:hover {
                     scale: 1.3;
                 }
