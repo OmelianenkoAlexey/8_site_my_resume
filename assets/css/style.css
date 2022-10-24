@@ -244,6 +244,9 @@ a {
   -webkit-box-shadow: 0 0 20px #c7aa70;
           box-shadow: 0 0 20px #c7aa70;
 }
+.left-aboutme {
+  border-bottom: 1px solid grey;
+}
 .left-aboutme__title {
   margin-bottom: 20px;
 
@@ -254,8 +257,12 @@ a {
 
   color: white;
 }
+.left-techskills {
+  border-bottom: 1px solid grey;
+}
 .left-techskills__title {
   margin-bottom: 20px;
+  padding-top: 20px;
 
   color: #c7aa70;
 }
@@ -274,8 +281,12 @@ a {
 .left-techskills__text--md {
   color: grey;
 }
+.left-softskills {
+  border-bottom: 1px solid grey;
+}
 .left-softskills__title {
   margin-bottom: 20px;
+  padding-top: 20px;
 
   color: #c7aa70;
 }
@@ -293,6 +304,7 @@ a {
 }
 .left-languages__title {
   margin-bottom: 20px;
+  padding-top: 20px;
 
   color: #c7aa70;
 }

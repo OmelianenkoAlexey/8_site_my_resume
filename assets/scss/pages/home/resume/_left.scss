@@ -26,6 +26,7 @@
     }
 
     &-aboutme {
+        border-bottom: 1px solid grey;
         &__title {
 
             color: #c7aa70;
@@ -39,9 +40,11 @@
     }
 
     &-techskills {
+            border-bottom: 1px solid grey;
 
         &__title {
             color: #c7aa70;
+            padding-top: 20px;
             margin-bottom: 20px;
         }
 
@@ -66,9 +69,11 @@
     }
 
     &-softskills {
+            border-bottom: 1px solid grey;
 
         &__title {
             color: #c7aa70;
+            padding-top: 20px;
             margin-bottom: 20px;
         }
 
@@ -91,6 +96,7 @@
 
         &__title {
             color: #c7aa70;
+            padding-top: 20px;
             margin-bottom: 20px;
         }
 
