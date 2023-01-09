@@ -469,10 +469,10 @@ a {
   display: flex;
 
   border-bottom: 1px solid #a8a8a8;
+
+  gap: 10px;
 }
 .right-info__contacts-viber {
-  margin-left: 10px;
-
   -webkit-transition: 0.5s;
        -o-transition: 0.5s;
           transition: 0.5s;
@@ -483,8 +483,6 @@ a {
   scale: 1.3;
 }
 .right-info__contacts-telegram {
-  margin-left: 10px;
-
   -webkit-transition: 0.5s;
        -o-transition: 0.5s;
           transition: 0.5s;
@@ -492,6 +490,16 @@ a {
   color: #27a3e2;
 }
 .right-info__contacts-telegram:hover {
+  scale: 1.3;
+}
+.right-info__contacts-linkedin {
+  -webkit-transition: 0.5s;
+       -o-transition: 0.5s;
+          transition: 0.5s;
+
+  color: #0172b1;
+}
+.right-info__contacts-linkedin:hover {
   scale: 1.3;
 }
 .right-info__contacts-link {
